@@ -7,10 +7,7 @@ import com.example.demo.entity.LoginRequest;
 import com.example.demo.entity.User;
 import com.example.demo.service.UserService;
 
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "https://expense-tracker-react.vercel.app"
-	})
+
 @RestController
 @RequestMapping("/user")
 public class UserController {

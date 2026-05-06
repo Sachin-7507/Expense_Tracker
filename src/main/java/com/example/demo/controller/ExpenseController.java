@@ -24,10 +24,7 @@ import com.example.demo.service.ExpenseService;
 
 @RestController
 @RequestMapping("/expense")
-@CrossOrigin(origins = {
-	    "http://localhost:5173",
-	    "https://expense-tracker-react.vercel.app"
-	})
+
 public class ExpenseController {
 	
 	@Autowired
